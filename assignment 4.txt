@@ -1,0 +1,200 @@
+void main()                --- ANS : 2 ----
+{
+
+t(2);  
+ 
+}
+
+void t(int a){
+  var i=0;
+ 
+ for(i;i<=10;i++){
+   int z=a*i;
+   print(z);
+ }
+}
+
+
+void main()              ----ANS : 3---              
+{
+ 
+  list(5);
+ 
+}
+
+void list(int x){
+ 
+  var i=0;
+  List lst = [2,4,6,8,9];
+  for(v; v<lst.length ; v++)
+  {
+    var s = (x/lst[v]);
+    print("table $s");
+ 
+
+
+
+  }
+}
+
+
+void main()               --- ANS : 4---                
+{
+ 
+ 
+List <String> n=["Hassnain","Sameeer","Hamid","Ahmed","Abid"];
+List m=[61,66,75,91];
+ 
+  for(var z=0 ; z<marks.length; z++){
+    marksheet(m[z],n[z]);
+  }
+ 
+}
+
+
+
+
+void marksheet(m,n){
+
+ 
+  if(m>=80){
+    print(" A+ grade");
+  }
+  else if(m>=70 || m<=79){
+    print("B grade");
+  }
+  else if(m>=60 || m<=69){
+    print("C grade");
+  }
+    else if(m>=50 || m<=59){
+    print("C grade");
+  }
+ else{
+    print("failed");
+  }
+}
+
+
+
+
+void main()                --- ANS : 5 ---
+{
+ 
+var nic=identity();
+nic.my();
+ 
+}
+
+class identity
+{
+void my(){
+  var name="Aliakber";
+  int age=19;
+  var courses=["urdu","Calculus","english"];
+  print("Ali akber data=");
+  print("name = $name" "age= $age" "courses=$courses" );
+}
+}
+
+
+
+
+
+
+
+
+
+
+void main()                           --- ANS : 6 ---
+
+
+{
+
+  var MyName=Names();
+ print("My Name Is $MyName.n");
+ 
+}
+
+class Names
+{
+var n="Ali";
+ 
+ 
+}
+
+
+
+
+
+
+
+void main()                         --- ANS : 7 ---                
+{
+  var d=Mybioinfo("Ali",19,"BSCS");
+ print("${d.Name} ${d.Age} $d.Education");
+ 
+}
+
+class Mybioinfo
+{
+
+ var Name;
+ int Age;
+late String Education;
+
+ 
+my(var N ,int A , String E ){
+
+ this.Name=N;
+  this.Age=A;
+  this.Education=E;
+   
+}
+ 
+}
+
+
+ void main()       ---ANS:8---                     
+{
+ 
+  var c=car();
+  c.tyres=(4);
+ 
+ man.horn();
+ 
+  var b=bike();
+ 
+  b.tyres=(2);
+  b.indicators();
+}
+   
+
+class Vehicles{
+ 
+ 
+ 
+void lights(){
+ 
+    print("has head lights");
+  }
+}
+
+class car extends Vehicles {
+ 
+  late double tyres;
+
+
+  void horn(){
+    print("Horn");
+  }
+ 
+}
+
+class bike extends vehicles{
+  late double tyres;
+ 
+ 
+  void indicators(){
+    print("has indicator");
+  }
+}
